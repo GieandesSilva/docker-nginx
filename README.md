@@ -2,16 +2,17 @@
 
 O que você encontra aqui:
     
-    * Uma imagem com ALPINE + NGINX - web-base
-    * Uma imagem com ALPINE + PHP7.2-fpm
-    * Uma imagem com MYSQL
+    * web-base   - Um serviço com ALPINE + NGINX
+    * app-base   - Um serviço com ALPINE + PHP7.2-fpm + Laravel 5.7
+    * db-base    - Um serviço com MYSQL5.7
+    * redis-base - Um serviço com REDIS
 
 ## Instalação
 
 * Faça o clone do projeto:
 
 ```bash
-    git clone git@github.com:GieandesSilva/docker-nginx-1.git [nome-do-projeto]
+    git clone git@github.com:GieandesSilva/docker-nginx.git [nome-do-projeto]
 ```
 
 * Entre na pasta [nome-do-projeto] e rode:
